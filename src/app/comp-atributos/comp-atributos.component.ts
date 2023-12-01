@@ -11,6 +11,7 @@ export class CompAtributosComponent {
   corDaFonte:string = "yellow"
   item:string = ""
   lista:string[] = []
+  isEnableBlock:boolean = true
 
   constructor(){}
 

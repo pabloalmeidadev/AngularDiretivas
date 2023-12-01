@@ -12,5 +12,14 @@
     <li *ngFor="let elemento of lista"> {{ elemento }} </li>
 </ul>
 
-
 <hr>
+
+<ng-template [ngIf]="isEnableBlock">
+    <a href="#">Finalizar Compra</a>
+</ng-template>
+
+<br>
+
+<ng-template [ngIf]="true">
+    <a href="#">Adicionar ao Carrinho</a>
+</ng-template>
